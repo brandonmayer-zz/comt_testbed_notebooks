@@ -65,7 +65,7 @@ plt.bar(bar_locs, normalized_counts, align='center')
 plt.xticks(bar_locs+width/2.,bins_deg,rotation=90)
 
 plt.tight_layout()
-plt.show()
+# plt.show()
 
 #########################################################################
 #EXPERIMENT 3
@@ -128,6 +128,8 @@ ax.quiver(X,Y,Ubins,Vbins,C,
            scale=1)
 ax.set_xlim(-1,1)
 ax.set_ylim(-1,1)
+
+plt.show()
 
 
 
